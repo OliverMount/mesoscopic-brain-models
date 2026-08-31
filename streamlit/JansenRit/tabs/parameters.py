@@ -112,5 +112,3 @@ def parameters_tab():
         
             st.session_state.params['y0']=np.array([y0,y1,y2])
             st.session_state.params['z0']=np.array([z0,z1,z2])
-
-    #print(st.session_state.params)
