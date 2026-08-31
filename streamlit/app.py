@@ -1,5 +1,3 @@
-# Streamlit app making
-
 import streamlit as st
 
 from tabs.introduction import introduction_tab
