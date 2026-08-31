@@ -7,15 +7,14 @@ The applications here  are intended primarily as **interactive demonstrations an
 ## Demo 1: Classical Jansen–Rit Neural Mass Model
 An interactive **Streamlit demonstration** of the classical **Jansen–Rit neural mass model** of a cortical column [^1].
 
-**Link**: ![]()
+**Link**: [Jansen-Rit Interactive Exploration](https://connect.posit.cloud/olive/content/01a0577f-8e56-4ab0-b963-1b2d7a5d2dac)
  
 **What You Can Do:**  
 1. **set** the model parameters and **explore** their effects on cortical population output.
 2. **reproduce** the result Fig. 3 in [^1]  and **compare** the simulation with reference results.
 
 
-## Demo 2: Synapse-driven Formulation of Jansen–Rit Neural Mass Model
- 
+## Demo 2
 
 ###  References
 
