@@ -12,13 +12,10 @@ def run_reproduce():
           y = np.zeros((len(C_list)))
           res = {} # For storing the reproducibility results 
         
-          # 1. Create a single placeholder container before the loop starts
           status_placeholder = st.empty()
         
           for idx, C in enumerate(C_list):  
-              print("**************************************")
-              print("For the value of C", C)
-              print("**************************************")
+              # Model
               model = JansenRit(C=C)
             
               # Placeholder for starting message
@@ -38,12 +35,8 @@ def run_reproduce():
           status_placeholder.empty()
         st.success("Simulation finished.")
         
-    #print(st.session_state.Fig3)
-
-    #print(st.session_state['Fig3'])
-    #print("Fig3" in st.session_state)
     
-    
+    # For plotting space
     col1, col2 = st.columns(2)
     with col1:
       st.subheader("Reproduced")
@@ -60,10 +53,8 @@ def run_reproduce():
              aa.plot(st.session_state.Fig3['t'], st.session_state.Fig3[f'y_{idx}'])
              aa.set_xlabel('Time (msec)') 
              aa.spines[["right","top"]].set_visible(False) 
-             #print(np.arange(t_begin,t_end+0.1,0.5))
              aa.set_xticks(tick_array)
              aa.set_xticklabels(tick_values)
-             #ax.set_ylabel('EEG amplitude')
          st.pyplot(f)          
        
     with col2:
