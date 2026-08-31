@@ -20,3 +20,6 @@ venv/
 # Local Streamlit utilitiesi
 # will be shared 
 streamlit/utils/   
+
+
+streamlit/JansenRit/rsconnect/
