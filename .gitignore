@@ -1,11 +1,9 @@
-
 # RStudio
 *.Rproj
 .Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
-
 
 # Python cache
 __pycache__/
@@ -19,5 +17,6 @@ venv/
 .env
 .env.*
 
-# Local Streamlit utilities
-streamlit/utils/
+# Local Streamlit utilitiesi
+# will be shared 
+streamlit/utils/   
