@@ -4,7 +4,6 @@ from utils.JansenRit import JansenRit
 import matplotlib.pyplot as plt
 
 def run_tab():
-  #st.write("Hello, *World!* :sunglasses:")
   if st.button("Run Simulation"):
 
     with st.spinner("Running simulation..."):
@@ -39,10 +38,3 @@ def run_tab():
     ax.set_yticklabels(ax.get_yticks(), fontsize=14)   
     ax.spines[["right","top"]].set_visible(False)  
     st.pyplot(f)          
-  
-  #params=st.session_state.params
-  #print(params) 
-  #model=JansenRit(params)
-  #model.solve 
-  #model.solve(method="RK4")
-  #model.plot_model_output()
