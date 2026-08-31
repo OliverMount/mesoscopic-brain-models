@@ -1,3 +1,13 @@
+<!-- badges: start -->  
+![version](https://badgen.net/badge/version/0.1/green)
+[![CI](https://github.com/USERNAME/Mesoscopic-brain-models/actions/workflows/ci.yml/badge.svg)](https://github.com/USERNAME/Mesoscopic-brain-models/actions/workflows/ci.yml)
+![Languages](https://badgen.net/badge/Languages/Python,R/green)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Lifecycle: developing](https://img.shields.io/badge/lifecycle-developing-blue.svg)](https://www.tidyverse.org/lifecycle/#developing)
+[![Last Commit](https://img.shields.io/github/last-commit/USERNAME/Mesoscopic-brain-models)](https://github.com/USERNAME/Mesoscopic-brain-models/commits)
+![GitHub repo size](https://img.shields.io/github/repo-size/USERNAME/Mesoscopic-brain-models)
+<!-- badges: end -->
+
 # Mesoscopic-brain-models
 
 This repository holds a collection of interactive demonstrations for exploring neural mass and mesoscopic brain models through Streamlit.
