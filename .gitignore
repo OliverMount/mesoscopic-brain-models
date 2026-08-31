@@ -1,0 +1,23 @@
+
+# RStudio
+*.Rproj
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local Python environments
+.venv/
+venv/
+
+# Local environment / secrets
+.env
+.env.*
+
+# Local Streamlit utilities
+streamlit/utils/
