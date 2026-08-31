@@ -1,15 +1,11 @@
 <!-- badges: start -->  
 ![version](https://badgen.net/badge/version/0.1/green)
-[![CI](https://github.com/OliverMount/mesoscopic-brain-models/actions/workflows/ci.yml/badge.svg)](https://github.com/OliverMount/mesoscopic-brain-models/actions/workflows/ci.yml)
 ![Languages](https://badgen.net/badge/Languages/Python,R/green)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Lifecycle: developing](https://img.shields.io/badge/lifecycle-developing-blue.svg)](https://www.tidyverse.org/lifecycle/#developing)
 [![Last Commit](https://img.shields.io/github/last-commit/OliverMount/mesoscopic-brain-models)](https://github.com/OliverMount/mesoscopic-brain-models/commits)
 ![GitHub repo size](https://img.shields.io/github/repo-size/OliverMount/mesoscopic-brain-models)
 <!-- badges: end -->
-
-
-
 
 # Mesoscopic-brain-models
 
